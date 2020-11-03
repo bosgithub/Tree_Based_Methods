@@ -17,5 +17,5 @@ __Step 2:__ For every oberservation that falls into the region Rj, we make the s
 ### Idea: Segment the regions R1, ...., RJ that minimizes the residual sum of squares.
 
 
-![Image of Tree_Formulae](https://github.com/bosgithub/Tree_Based_Methods/Tree_Formulae.PNG)
+![Image of Tree_Formulae](Tree_Formulae.PNG)
 
