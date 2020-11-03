@@ -10,4 +10,7 @@ With any given dataset, we have X1, X2, ....., Xp. The set of predictors, which 
 
 *an example for this would be maping displacement with respect to time on a cartesian coordinate system, where as time progresses, we can traverse within the x, y, and z axises defined space, each of which tells us the unique information of our location along the specific axis or predictor.*
 
+Step 1: We divide the predictor space into J distinct and non-overlapping regions, R1, R2,...., RJ
+Step 2: For every oberservation that falls into the region Rj, we make the same prediction, which is taken to be simple the mean of the response value for the training observation in Rj. The shape of the segmented region doesn't matter. But intuitively, hyper-rectangle is easiest to work with mathimatically.
 
+Idea: Segment the regions R1, ...., RJ that minimizes the residual sum of squares.
