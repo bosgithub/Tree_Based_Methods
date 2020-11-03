@@ -14,8 +14,6 @@ __Step 1:__ We divide the predictor space into J distinct and non-overlapping re
 
 __Step 2:__ For every oberservation that falls into the region Rj, we make the same prediction, which is taken to be simple the mean of the response value for the training observation in Rj. The shape of the segmented region doesn't matter. But intuitively, hyper-rectangle is easiest to work with mathimatically.
 
-### Idea: Segment the regions R1, ...., RJ that minimizes the residual sum of squares.
-
-
 ![Image of Tree_Formulae](Tree_Formulae.PNG)
 
+We sum from region 1 to region J and every observation measure within each region, we get the square of the error and the idea is *__we look for overall split of regions R1, ...., RJ that minimizes the residual sum of squares.__*
